@@ -67,7 +67,7 @@ public class LoginWSM {
 	public void case6() {
 		//update correct username and password
 		driver.findElement(By.id("user_email")).sendKeys("nguyen.thi.truc.na@framgia.com");
-		driver.findElement(By.id("user_password")).sendKeys(("nguyenthitrucna"));
+		driver.findElement(By.id("user_password")).sendKeys(("aaaa"));
 		driver.findElement(By.name("button")).click();
 	}
 	@Test(priority = 6)
